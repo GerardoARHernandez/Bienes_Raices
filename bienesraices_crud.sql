@@ -39,6 +39,7 @@ CREATE TABLE `vendedores` (
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb3;
 
 INSERT INTO `propiedades` (`id`, `titulo`, `precio`, `imagen`, `descripcion`, `habitaciones`, `wc`, `estacionamiento`, `creado`, `vendedores_id`) VALUES
+<<<<<<< HEAD
 (6, 'Casa en la playa', '1420000.00', '64ba24074acf1870c125684977959ad4.jpg', 'Hermosa, con una linda vista en la playa y el mar donde te llega la hermosa brisa [actualizado]', 5, 2, 4, '2024-02-14', 2);
 INSERT INTO `propiedades` (`id`, `titulo`, `precio`, `imagen`, `descripcion`, `habitaciones`, `wc`, `estacionamiento`, `creado`, `vendedores_id`) VALUES
 (9, 'Casa en el bosque', '3566666.00', '95c6f87895d003b308daf65e601e1b2d.jpg', 'Casa en el bosque Casa en el bosque Casa en el bosque Casa en el bosqueCasa en el bosque Casa en el bosque Casa en el bosque Casa en el bosque', 3, 2, 4, '2024-02-17', 1);
@@ -56,6 +57,25 @@ INSERT INTO `vendedores` (`id`, `nombre`, `apellido`, `telefono`) VALUES
 INSERT INTO `vendedores` (`id`, `nombre`, `apellido`, `telefono`) VALUES
 (2, 'Karen', 'Ibarra', '5582826925');
 
+=======
+(6, 'Casa en la playa', '1420000.00', '64ba24074acf1870c125684977959ad4.jpg', 'Hermosa, con una linda vista en la playa y el mar donde te llega la hermosa brisa [actualizado]', 5, 2, 4, '2024-02-14', 2);
+INSERT INTO `propiedades` (`id`, `titulo`, `precio`, `imagen`, `descripcion`, `habitaciones`, `wc`, `estacionamiento`, `creado`, `vendedores_id`) VALUES
+(9, 'Casa en el bosque', '3566666.00', '95c6f87895d003b308daf65e601e1b2d.jpg', 'Casa en el bosque Casa en el bosque Casa en el bosque Casa en el bosqueCasa en el bosque Casa en el bosque Casa en el bosque Casa en el bosque', 3, 2, 4, '2024-02-17', 1);
+INSERT INTO `propiedades` (`id`, `titulo`, `precio`, `imagen`, `descripcion`, `habitaciones`, `wc`, `estacionamiento`, `creado`, `vendedores_id`) VALUES
+(11, 'Casa Terminados de Lujo', '2000000.00', 'c812524d9f5c60d347b2207998de092d.jpg', 'Casa con diseño moderno, así como tecnología inteligente y amueblada.', 3, 3, 4, '2024-02-20', 2);
+INSERT INTO `propiedades` (`id`, `titulo`, `precio`, `imagen`, `descripcion`, `habitaciones`, `wc`, `estacionamiento`, `creado`, `vendedores_id`) VALUES
+(12, 'Casa de Lujo en el Lago', '3000000.00', '95c31842001a5db6bb496e8f24550d1f.jpg', 'Casa de Lago con excelente vista, acabados de lujo a un excelente precio.', 3, 4, 4, '2024-02-20', 2);
+
+INSERT INTO `usuarios` (`id`, `email`, `password`) VALUES
+(2, 'correo@correo.com', '$2y$10$JmlNKLf36azYN2SN4fqnFOPXSnPF7hVJ9eAOSqIHwqfRaNgxr5BLu');
+
+
+INSERT INTO `vendedores` (`id`, `nombre`, `apellido`, `telefono`) VALUES
+(1, 'Gerardo', 'Ruelas Hernández', '5573858588');
+INSERT INTO `vendedores` (`id`, `nombre`, `apellido`, `telefono`) VALUES
+(2, 'Karen', 'Ibarra', '5582826925');
+
+>>>>>>> 31fc66ffcfe07264b50180846c6550de36401681
 
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
